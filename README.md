@@ -4,6 +4,8 @@ Java 17 utility functions for grocery data: sorting, filtering, conversion betwe
 `name,category,price,quantity` records, and inventory totals. The solution is in
 [`GroceryUtils.java`](src/main/java/com/company/grocery/GroceryUtils.java). `Product.java`,
 `GroceryApplication.java` and `GroceryUtilsTest.java` are unchanged from the candidate pack.
+The full original brief (problem statement, validation contract, starter code, rubric and
+checklist) is in [`CANDIDATE_PACK.md`](CANDIDATE_PACK.md).
 
 ## Project layout
 
@@ -88,3 +90,16 @@ does not, so an overflow can't produce a silently wrong total.
 | `getTotalPrice`, `getTotalQuantity`    | O(n)         | O(1)                           |
 
 Validation is a single O(n) pass, so it doesn't change any of these bounds.
+
+## Submission checklist
+
+- [x] All TODO methods in `GroceryUtils.java` are implemented. All 16 are done.
+- [x] The Maven project passes `mvn clean test`: 62 run, 0 failures, 0 errors, 0 skipped.
+- [x] The Gradle project passes `gradle clean test`: 62 run, 0 failures, 0 errors, 0 skipped.
+- [x] No public API, package name, or supplied assertion was changed.
+- [x] Filters preserve order, do not mutate source arrays, and return new arrays.
+- [x] Conversion and information formats match the specified contract.
+- [x] Null, blank, malformed, numeric, and boundary cases are handled.
+- [x] Code is formatted and free from debugging output. The only output is the demo printing in
+  `GroceryApplication`, which is supplied code.
+- [x] Time/space complexity and validation choices are explained above.
