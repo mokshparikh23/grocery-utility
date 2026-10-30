@@ -273,7 +273,7 @@ See [`settings.gradle`](settings.gradle).
 
 ---
 
-# Part V: Evaluation
+# Part V: Evaluation Rubric, Timing Guidance, and Submission Checklist
 
 ## 12. Expected completion-time guidelines
 
